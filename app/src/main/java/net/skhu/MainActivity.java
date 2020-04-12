@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
                 EditText e2 = (EditText)findViewById(R.id.editText2);
                 CharSequence s2 = e2.getText();
 
-
                 EditText t = (EditText)findViewById(R.id.editText2);
                 t.setText(s);
 
