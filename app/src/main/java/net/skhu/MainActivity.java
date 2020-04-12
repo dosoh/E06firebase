@@ -21,10 +21,18 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 EditText e = (EditText)findViewById(R.id.editText);
                 CharSequence s = e.getText();
-                TextView t = (TextView)findViewById(R.id.textView);
+                EditText t = (EditText)findViewById(R.id.editText2);
                 t.setText(s);
+
+                EditText e2 = (EditText)findViewById(R.id.editText2);
+                CharSequence s2 = e.getText();
+                EditText t2 = (EditText)findViewById(R.id.editText);
+                t.setText(s);
+
             }
         };
+
         b.setOnClickListener(listenerObj);
+
     }
 }
